@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import { errorHandler, notFound } from './middlewares/errorMiddleare'
+import { errorHandler, notFound } from './middlewares/errorMiddleare.js'
 
 const port = process.env.PORT || 7000
 const app = express()
